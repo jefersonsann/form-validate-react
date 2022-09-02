@@ -1,0 +1,34 @@
+:root {
+  --heigth-header: 90px;
+  --heigth-footer: 60px;
+  --heigth-form: calc(var(--heigth-header) + var(--heigth-footer));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: #222;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+
+.container {
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+}
