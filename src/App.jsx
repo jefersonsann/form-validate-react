@@ -11,10 +11,12 @@ const App = () => {
     <>
       <Header />
       <main>
-        <div className="corpo">
-          {matches ? <BgFans /> : null}
-          <FormCreate />
-        </div>
+        <section className="container">
+          <div className="corpo">
+            {matches ? <BgFans /> : null}
+            <FormCreate />
+          </div>
+        </section>
       </main>
     </>
   );

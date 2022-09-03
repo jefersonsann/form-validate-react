@@ -1,7 +1,7 @@
 :root {
   --heigth-header: 90px;
   --heigth-footer: 60px;
-  --heigth-form: calc(var(--heigth-header) + var(--heigth-footer));
+  --heigth-form: var(--heigth-header);
 }
 
 * {
@@ -25,12 +25,6 @@ body {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
-}
-
-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .container {
