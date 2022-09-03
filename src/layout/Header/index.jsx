@@ -1,4 +1,3 @@
-import React from 'react';
 import './Header.css';
 
 const index = () => {
@@ -13,7 +12,7 @@ const index = () => {
                 <a href="/">Login</a>
               </li>
               <li>
-                <a href="#" className="signup">
+                <a href="#" className="header__signup">
                   Sign up
                 </a>
               </li>

@@ -38,7 +38,7 @@
   color: white;
 }
 
-.header__menu ul li a.signup {
+.header__menu ul li a.header__signup {
   color: #fee1ff;
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
@@ -47,7 +47,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.header__menu ul li a.signup:hover {
+.header__menu ul li a.header__signup:hover {
   transform: scale(1.1);
   background-color: rgba(255, 255, 255, 0.5);
 }

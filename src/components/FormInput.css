@@ -1,0 +1,31 @@
+.form__control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form__control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form__control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+.form__control input:invalid[focused='true'] {
+  border-color: #e74c3c;
+}
+
+.form__control input:invalid[focused='true'] ~ small {
+  display: block;
+}
+
+.form__control small {
+  display: none;
+  color: #e74c3c;
+}
